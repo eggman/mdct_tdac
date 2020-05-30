@@ -1,7 +1,7 @@
-all:
+all: mdct.c
 	gcc -Wall -o mdct mdct.c
 
-test:
+test: mdct
 	./mdct
 
 format:
